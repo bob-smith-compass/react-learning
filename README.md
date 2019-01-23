@@ -1,5 +1,59 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+# Installation Installs the following:
+v738110-C02WR78THTD6:react-learning v738110$ create-react-app .
+
+Creating a new React app in /Users/v738110/Compass/React/react-learning.
+
+Installing packages. This might take a couple of minutes.
+Installing `react, react-dom, and react-scripts`...
+
+yarn add v1.12.3
+[1/4] 🔍  Resolving packages...
+[2/4] 🚚  Fetching packages...
+[3/4] 🔗  Linking dependencies...
+[4/4] 📃  Building fresh packages...
+success Saved lockfile.
+success Saved 5 new dependencies.
+info Direct dependencies
+├─ react-dom@16.7.0
+├─ react-scripts@2.1.3
+└─ react@16.7.0
+info All dependencies
+├─ react-dev-utils@7.0.1
+├─ react-dom@16.7.0
+├─ react-error-overlay@5.1.2
+├─ react-scripts@2.1.3
+└─ react@16.7.0
+✨  Done in 11.22s.
+
+Initialized a git repository.
+
+Success! Created react-learning at /Users/v738110/Compass/React/react-learning
+Inside that directory, you can run several commands:
+
+  `yarn start`
+    Starts the development server.
+
+  `yarn build`
+    Bundles the app into static files for production.
+
+  `yarn test`
+    Starts the test runner.
+
+  `yarn eject`
+    Removes this tool and copies build dependencies, configuration files
+    and scripts into the app directory. If you do this, you can’t go back!
+
+We suggest that you begin by typing:
+
+  cd /Users/v738110/Compass/React/react-learning
+  yarn start
+
+Happy hacking!
+v738110-C02WR78THTD6:react-learning v738110$
+
+
 ## Available Scripts
 
 In the project directory, you can run:
