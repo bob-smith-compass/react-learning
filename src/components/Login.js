@@ -1,9 +1,12 @@
-import React, { Component } from 'react'
+import React, { Component } from 'react';
+import Alert from './alert/Alert'
+
 
 class Login extends Component {
     render() {
         return (
             <div>
+                <Alert />
                 <div class="btn-group">
                     <button type="button" class="btn btn-danger dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                         Action
