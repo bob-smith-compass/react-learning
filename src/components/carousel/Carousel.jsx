@@ -22,7 +22,7 @@ export default class Carousel extends Component {
                         </div>
                         <div className="carousel-item">
                             <img src="../../img/3.jpg" className="d-block w-100" alt="something" />
-                            <svg className="bd-placeholder-img bd-placeholder-img-lg d-block w-100" width="800" height="400" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: Second slide"><title>Placeholder</title><rect fill="#666" width="100%" height="100%"></rect><text fill="#444" dy=".3em" x="50%" y="50%">Second slide</text></svg>
+                            <svg className="bd-placeholder-img bd-placeholder-img-lg d-block w-100" width="800" height="400" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: Third slide"><title>Placeholder</title><rect fill="#666" width="100%" height="100%"></rect><text fill="#001" dy=".3em" x="50%" y="50%">Third slide</text></svg>
                         </div>
                     </div>
                     <a className="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">

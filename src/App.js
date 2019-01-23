@@ -7,6 +7,9 @@ import Breadcrumb from './components/breadcrumb/Breadcrumb';
 import Button from './components/button/Button';
 import Card from './components/card/Card';
 import Carousel from './components/carousel/Carousel';
+import Collapse from './components/collapse/Collapse';
+import SplitButton from './components/split-button/SplitButton';
+import Toast from './components/toast/Toast';
 
 
 class App extends Component {
@@ -29,6 +32,9 @@ class App extends Component {
         </header>
         <Breadcrumb />
         <Carousel />
+        <Collapse />
+        <SplitButton />
+        <Toast />
         <Button />
         <Card />
         <Login />
