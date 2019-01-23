@@ -3,6 +3,7 @@ import React, { Component } from 'react';
 import './App.css';
 import Login from './components/Login';
 import NameForm from './Form';
+import Breadcrumb from './components/breadcrumb/Breadcrumb';
 
 
 class App extends Component {
@@ -23,6 +24,7 @@ class App extends Component {
             Login
           </a>
         </header>
+        <Breadcrumb />
         <Login />
         <NameForm />
       </div>

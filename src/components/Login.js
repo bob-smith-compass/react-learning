@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import Alert from './alert/Alert'
+import Notification from './notification/Notification';
 
 
 class Login extends Component {
@@ -7,6 +8,7 @@ class Login extends Component {
         return (
             <div>
                 <Alert />
+                <Notification />
                 <div class="btn-group">
                     <button type="button" class="btn btn-danger dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                         Action
