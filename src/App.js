@@ -6,6 +6,7 @@ import NameForm from './Form';
 import Breadcrumb from './components/breadcrumb/Breadcrumb';
 import Button from './components/button/Button';
 import Card from './components/card/Card';
+import Carousel from './components/carousel/Carousel';
 
 
 class App extends Component {
@@ -27,6 +28,7 @@ class App extends Component {
           </a>
         </header>
         <Breadcrumb />
+        <Carousel />
         <Button />
         <Card />
         <Login />
