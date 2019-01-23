@@ -4,6 +4,8 @@ import './App.css';
 import Login from './components/Login';
 import NameForm from './Form';
 import Breadcrumb from './components/breadcrumb/Breadcrumb';
+import Button from './components/button/Button';
+import Card from './components/card/Card';
 
 
 class App extends Component {
@@ -25,6 +27,8 @@ class App extends Component {
           </a>
         </header>
         <Breadcrumb />
+        <Button />
+        <Card />
         <Login />
         <NameForm />
       </div>
