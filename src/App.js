@@ -1,7 +1,8 @@
 import React, { Component } from 'react';
 // import logo from './logo.svg';
 import './App.css';
-import Login from './components/Login';
+// import Login from './components/Login';
+import Login from './components/login/Login';
 import NameForm from './Form';
 import Breadcrumb from './components/breadcrumb/Breadcrumb';
 import Button from './components/button/Button';
@@ -32,6 +33,7 @@ class App extends Component {
         </header>
         <Breadcrumb />
         <Carousel />
+        <Login />
         <Collapse />
         <SplitButton />
         <Toast />
