@@ -11,12 +11,15 @@ import Carousel from './components/carousel/Carousel';
 import Collapse from './components/collapse/Collapse';
 import SplitButton from './components/split-button/SplitButton';
 import Toast from './components/toast/Toast';
+import {BrowserRouter as Router, Route, Switch } from 'react-router-dom'
 
 
 class App extends Component {
   render() {
     return (
       <div className="App">
+        <Router>
+          <div>
         <header className="App-header">
           {/* <img src={logo} className="App-logo" alt="logo" /> */}
           <p>
@@ -39,8 +42,9 @@ class App extends Component {
         <Toast />
         <Button />
         <Card />
-        <Login />
         <NameForm />
+        </div>
+        </Router>
       </div>
     );
   }
