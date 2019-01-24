@@ -57,6 +57,12 @@ v738110-C02WR78THTD6:react-learning v738110$
 # Routing in React
 `v738110$ yarn add react-router-dom`
 
+
+# REST fake online
+
+[https://jsonplaceholder.typicode.com/](https://jsonplaceholder.typicode.com/)
+[Using Fetch](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API/Using_Fetch)
+
 ## Available Scripts
 
 In the project directory, you can run:

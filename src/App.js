@@ -8,6 +8,7 @@ import About from "./components/pages/About";
 import Home from "./components/pages/Home";
 import {Link} from 'react-router-dom';
 import Notfound from "./components/pages/Notfound";
+import Test from "./components/test/Test";
 
 class App extends Component {
   render() {
@@ -34,9 +35,9 @@ class App extends Component {
           <Switch>
             <Route exact path="/" component={Home} />
             <Route exact path="/about" component={About} />
+            <Route exact path="/test" component={Test} />
             <Route component={Notfound} />
             <Link to="/">Home</Link> | <Link to="/about:id">About</Link>
-
           </Switch>
         </Router>
       </div>
