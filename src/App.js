@@ -11,7 +11,9 @@ import Carousel from './components/carousel/Carousel';
 import Collapse from './components/collapse/Collapse';
 import SplitButton from './components/split-button/SplitButton';
 import Toast from './components/toast/Toast';
-import {BrowserRouter as Router, Route, Switch } from 'react-router-dom'
+import {BrowserRouter as Router, Route, Switch } from 'react-router-dom';
+import About from './components/pages/About';
+import Home from './components/pages/Home';
 
 
 class App extends Component {
@@ -19,32 +21,15 @@ class App extends Component {
     return (
       <div className="App">
         <Router>
-          <div>
-        <header className="App-header">
-          {/* <img src={logo} className="App-logo" alt="logo" /> */}
-          <p>
-            Compass
-          </p>
-          <a
-            className="App-link"
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Login
-          </a>
-        </header>
-        <Breadcrumb />
-        <Carousel />
-        <Login />
-        <Collapse />
-        <SplitButton />
-        <Toast />
-        <Button />
-        <Card />
-        <NameForm />
-        </div>
-        </Router>
+          <Switch>
+            <Route 
+              exact path="/" component={Home}>
+            </Route>
+            <Route 
+              exact path="about" component={About}>
+            </Route>
+          </Switch>
+           </Router>
       </div>
     );
   }
